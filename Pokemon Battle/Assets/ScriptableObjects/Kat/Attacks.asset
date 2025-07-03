@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c755c42aef278404f83e341753f42eb6, type: 3}
+  m_Name: Attacks
+  m_EditorClassIdentifier: 
+  attacks:
+  - attackName: Curse
+    minDamage: 20
+    maxDamage: 40
+    attackTime: 2
+    animationName: KatAttack_1
+    soundName: Kat_Attack1
+    hitParticlesPrefab: {fileID: 2708598583397607911, guid: 6398d43fe79ea0140913dc5530c646af,
+      type: 3}
+    particlesPrefab: {fileID: 3280519133390621005, guid: a71be3e7990efb040a07565c43cbb198,
+      type: 3}
+  - attackName: Magic strike
+    minDamage: 10
+    maxDamage: 30
+    attackTime: 2
+    animationName: KatAttack_2
+    soundName: Kat_Attack2
+    hitParticlesPrefab: {fileID: 2708598583397607911, guid: 6398d43fe79ea0140913dc5530c646af,
+      type: 3}
+    particlesPrefab: {fileID: 7226888052703040409, guid: 7ec363c8df426644ea85f8d6d570561c,
+      type: 3}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c755c42aef278404f83e341753f42eb6, type: 3}
+  m_Name: Attacks
+  m_EditorClassIdentifier: 
+  attacks:
+  - attackName: Grass hit
+    minDamage: 20
+    maxDamage: 40
+    attackTime: 2
+    animationName: MeowAttack_1
+    soundName: MeowAttack_1
+    hitParticlesPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512,
+      type: 3}
+    particlesPrefab: {fileID: 4425129568585013132, guid: bbeeb0ddc21369746aaaae5c5c1c09cf,
+      type: 3}
+  - attackName: Nature scratch
+    minDamage: 10
+    maxDamage: 30
+    attackTime: 2
+    animationName: MeowAttack_2
+    soundName: MeowAttack_2
+    hitParticlesPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512,
+      type: 3}
+    particlesPrefab: {fileID: 4772634663576830964, guid: e1385af346f4e624eb313ec1ea4fcd7e,
+      type: 3}
