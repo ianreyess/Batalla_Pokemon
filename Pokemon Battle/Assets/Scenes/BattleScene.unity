@@ -351,7 +351,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8814ec7967fb81e48b393ef377c6e9f1,
         type: 3}
       propertyPath: m_Name
-      value: meowscarada with anim
+      value: 'meowscarada '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -512,9 +512,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Meowscarada
-  _attacks: {fileID: 0}
-  _health: {fileID: 0}
-  _characterAnimator: {fileID: 0}
+  _attacks: {fileID: 11400000, guid: f84f9a3cc8e0cf547a6340ae06057ae3, type: 2}
+  _health: {fileID: 165894358}
+  _characterAnimator: {fileID: 165894357}
   _onFigtherInitialized:
     m_PersistentCalls:
       m_Calls:
@@ -1145,7 +1145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1153,7 +1153,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 386c9f1240fdf4949bd2c60c3e716063, type: 3}
+    m_Font: {fileID: 12800000, guid: 76dfabab9f69284408b6523d74f86514, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 1
@@ -1165,9 +1165,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '
-
-'
+  m_Text: 
 --- !u!222 &569742875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1777,7 +1775,7 @@ GameObject:
   - component: {fileID: 1051798144}
   - component: {fileID: 1051798147}
   m_Layer: 0
-  m_Name: ImageTarget_Katress
+  m_Name: ImageTarget_Meow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1903,7 +1901,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1325802159}
   - {fileID: 1871573671}
   - {fileID: 165894355}
   m_Father: {fileID: 0}
@@ -2083,7 +2080,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 49ab700e420912d4eb28ca06643cf022,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1273089478}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 49ab700e420912d4eb28ca06643cf022,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1273089477}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 49ab700e420912d4eb28ca06643cf022,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1273089476}
   m_SourcePrefab: {fileID: 100100000, guid: 49ab700e420912d4eb28ca06643cf022, type: 3}
 --- !u!4 &1273089474 stripped
 Transform:
@@ -2091,6 +2100,78 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1273089473}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1273089475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 49ab700e420912d4eb28ca06643cf022,
+    type: 3}
+  m_PrefabInstance: {fileID: 1273089473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1273089476
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273089475}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1273089477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273089475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3a5130cb3f4304fb2a9b39e408b710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthSlider: {fileID: 0}
+  _initialHealth: 200
+  _onUpdateHealth:
+    m_PersistentCalls:
+      m_Calls: []
+  _onDefeated:
+    m_PersistentCalls:
+      m_Calls: []
+  _onTakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1273089478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273089475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ea3f73bb7c8274f9470d3c3317abe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: 
+  _attacks: {fileID: 0}
+  _health: {fileID: 0}
+  _characterAnimator: {fileID: 0}
+  _onFigtherInitialized:
+    m_PersistentCalls:
+      m_Calls: []
+  _winAnimationName: win
+  _winSoundName: winSound
 --- !u!1 &1274631413
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,180 +2645,6 @@ MonoBehaviour:
         m_CallState: 2
   _winAnimationName: Grizz_Win
   _winSoundName: WinSound
---- !u!1 &1325802158 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f284c057d998377468b236ea50c7e86d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1970687280}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1325802159 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1970687280}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1325802160
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325802158}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7407271193804984b88cf4004847cf47, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1325802161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325802158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3a5130cb3f4304fb2a9b39e408b710, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _healthSlider: {fileID: 1492757037}
-  _initialHealth: 200
-  _onUpdateHealth:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1492757037}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
-        m_MethodName: set_value
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _onDefeated:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1325802160}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Kat_Death
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 316525044}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Kat_Death
-          m_BoolArgument: 0
-        m_CallState: 2
-  _onTakeDamage:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1325802160}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: KatDamage
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 316525044}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Kat_Damage
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1574111088}
-        m_TargetAssemblyTypeName: DamageText, Assembly-CSharp
-        m_MethodName: ShowDamageText
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Kat_Damage
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1325802162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325802158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9ea3f73bb7c8274f9470d3c3317abe9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _name: Katress
-  _attacks: {fileID: 11400000, guid: 8c93ae1315125064f80e3df519b9117a, type: 2}
-  _health: {fileID: 1325802161}
-  _characterAnimator: {fileID: 1325802160}
-  _onFigtherInitialized:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1325802161}
-        m_TargetAssemblyTypeName: Health, Assembly-CSharp
-        m_MethodName: InitialHealth
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1325802160}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Idle
-          m_BoolArgument: 0
-        m_CallState: 2
-  _winAnimationName: Katt_win
-  _winSoundName: WinSound
 --- !u!1 &1335541399
 GameObject:
   m_ObjectHideFlags: 0
@@ -2934,7 +2841,7 @@ GameObject:
   - component: {fileID: 1376339199}
   - component: {fileID: 1376339202}
   m_Layer: 0
-  m_Name: ImageTarget_Grizz
+  m_Name: ImageTarget_Snea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4294,106 +4201,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1001 &1970687280
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1051798146}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.06324979
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.06324979
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.06324979
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.0038
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.003700018
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      propertyPath: m_Name
-      value: 'katress '
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1325802160}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1325802161}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f284c057d998377468b236ea50c7e86d,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1325802162}
-  m_SourcePrefab: {fileID: 100100000, guid: f284c057d998377468b236ea50c7e86d, type: 3}
 --- !u!1 &2032707433
 GameObject:
   m_ObjectHideFlags: 0
