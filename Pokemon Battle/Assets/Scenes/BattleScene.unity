@@ -1432,7 +1432,7 @@ GameObject:
   - component: {fileID: 613086616}
   - component: {fileID: 613086619}
   m_Layer: 0
-  m_Name: ImageTarget_Mossa
+  m_Name: ImageTarget_Coso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1545,7 +1545,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Mossanda
+  mTrackableName: Coso
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1.1542969
@@ -3154,7 +3154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9ea3f73bb7c8274f9470d3c3317abe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Mossanda
+  _name: Coso
   _attacks: {fileID: 11400000, guid: c8e0cc2c091363c4ca84d99c56699102, type: 2}
   _health: {fileID: 1524910732}
   _characterAnimator: {fileID: 1524910730}
@@ -3199,7 +3199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c3a5130cb3f4304fb2a9b39e408b710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthSlider: {fileID: 0}
+  _healthSlider: {fileID: 802106688}
   _initialHealth: 200
   _onUpdateHealth:
     m_PersistentCalls:
